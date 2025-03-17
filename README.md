@@ -1,12 +1,57 @@
-# React + Vite
+# Contest Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A MERN website that fetch the contest details from the platforms like leetcode, codechef and codeforces and show the details to user, user can bookmark it, user get updated with all the upcomming and past contest with just one web app.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install my-project with bun or npm
+
+```bash
+git clone https://github.com/devXlalit/TLE_Assignment-Coding-Contest-tracker.git
+```
+```bash![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/a8a5faac-9ecd-491c-bd30-80a613df5a5c)
+![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/d028c015-10b8-4950-8e41-15c30bddd5ec)
+
+cd TLE_Assignment-Coding-Contest-tracker
+```
+```bash
+bun install
+```  
+    
+## Tech Stack
+
+**Client:** React, TailwindCSS
+
+**Server:** Node, Express, MondoDB
+
+
+## API Used
+
+#### For Contest data fetching.
+
+```http
+  https://clist.by/api/v4/constest/
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get contest data by host (eg, leetcode, codechef, codeforces)
+
+```http
+GET https://clist.by/api/v4/contest/?upcoming=true&format=json&host=${host-website}.com&username=${username}&api_key=${apikey}
+```
+
+## YouTube Data API v3
+
+#### For youtube video fetching.(find it on - Google cloud console)
+```http
+GET https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(contestName)}&type=video&maxResults=1&key=${YOUTUBE_API_KEY}
+```
+## Authors
+
+- [@devXlalit](https://github.com/devXlalit)
+
