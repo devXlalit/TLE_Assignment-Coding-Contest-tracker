@@ -16,7 +16,10 @@ cd TLE_Assignment-Coding-Contest-tracker
 ```
 ```bash
 bun install
-```  
+```
+```bash
+bun run dev
+```
     
 ## Tech Stack
 
