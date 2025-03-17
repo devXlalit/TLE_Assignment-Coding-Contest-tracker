@@ -2,7 +2,7 @@
 
 A MERN website that fetch the contest details from the platforms like leetcode, codechef and codeforces and show the details to user, user can bookmark it, user get updated with all the upcomming and past contest with just one web app.
 
-
+![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/a8a5faac-9ecd-491c-bd30-80a613df5a5c)
 
 ## Installation
 
@@ -11,7 +11,7 @@ Install my-project with bun or npm
 ```bash
 git clone https://github.com/devXlalit/TLE_Assignment-Coding-Contest-tracker.git
 ```
-```bash![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/a8a5faac-9ecd-491c-bd30-80a613df5a5c)
+```bash
 ![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/d028c015-10b8-4950-8e41-15c30bddd5ec)
 
 cd TLE_Assignment-Coding-Contest-tracker
