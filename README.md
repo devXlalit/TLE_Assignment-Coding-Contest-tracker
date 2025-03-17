@@ -12,8 +12,6 @@ Install my-project with bun or npm
 git clone https://github.com/devXlalit/TLE_Assignment-Coding-Contest-tracker.git
 ```
 ```bash
-![Screenshot From 2025-03-17 10-40-59](https://github.com/user-attachments/assets/d028c015-10b8-4950-8e41-15c30bddd5ec)
-
 cd TLE_Assignment-Coding-Contest-tracker
 ```
 ```bash
